@@ -27,28 +27,6 @@ Opens at `http://localhost:8501`
 
 ---
 
-## ☁️ Deploy to Streamlit Cloud (Free)
-
-1. **Push to GitHub**
-```bash
-   git init
-   git add .
-   git commit -m "LeafScan AI"
-   # push to a public GitHub repo
-```
-
-2. **Go to** [share.streamlit.io](https://share.streamlit.io)
-
-3. **Click** "New app" → connect your GitHub repo
-
-4. **Set main file:** `app.py`
-
-5. **Click Deploy** — you get a public URL instantly
-
-> Include `plant_disease_model.pth` in your repo so the deployed app uses your trained weights.
-
----
-
 ## 🧠 How It Works
 
 | Component | Detail |
@@ -111,4 +89,4 @@ plant-disease-detector/
 - **Frontend/Server:** Streamlit
 - **Deep Learning:** PyTorch + TorchVision
 - **Model:** EfficientNet-B0
-- **Deployment:** Streamlit Community Cloud (free)
+- **Deployment:** Streamlit Community Cloud 
