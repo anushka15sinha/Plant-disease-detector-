@@ -1,10 +1,10 @@
-# LeafScan AI — Plant Disease Detector
+# LeafScan — Plant Disease Detector
 
 An AI-powered plant leaf disease detection app built with **Streamlit** + **PyTorch EfficientNet-B0**, supporting **15 disease conditions** across **3 crop species** (Bell Pepper, Potato, Tomato) using the PlantVillage dataset.
 
 ---
 
-## 🚀 Quick Start (Local)
+## Quick Start locally
 
 ### 1. Install dependencies (only once)
 ```bash
@@ -27,7 +27,7 @@ Opens at `http://localhost:8501`
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 | Component | Detail |
 |---|---|
@@ -59,7 +59,7 @@ Opens at `http://localhost:8501`
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 plant-disease-detector/
 ├── app.py                      # Main Streamlit application
 ├── train.py                    # Fine-tuning script
@@ -76,7 +76,7 @@ plant-disease-detector/
 
 ---
 
-## 📸 Getting Test Images
+##  Getting Test Images
 
 - Use images from your PlantVillage dataset directly
 - Google Images: search `"tomato late blight leaf"`, `"potato early blight"`, etc.
@@ -84,9 +84,12 @@ plant-disease-detector/
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 - **Frontend/Server:** Streamlit
 - **Deep Learning:** PyTorch + TorchVision
 - **Model:** EfficientNet-B0
-- **Deployment:** Streamlit Community Cloud 
+- **Deployment:** Streamlit Community Cloud
+
+## Public deployed url 
+- https://plant-disease-detector-15.streamlit.app/
