@@ -91,5 +91,8 @@ plant-disease-detector/
 - **Model:** EfficientNet-B0
 - **Deployment:** Streamlit Community Cloud
 
+## Disclaimer 
+This project is intended for educational and research purposes only. It should not be used as a substitute for professional agricultural or scientific diagnosis. 
+
 ## Public deployed url 
 - https://plant-disease-detector-15.streamlit.app/
